@@ -3,7 +3,9 @@
 <x-head titolo="Modifica l'articolo"></x-head>
 
 
-<livewire:form-edit-article/>
+<livewire:edit-article
+:article=$article
+/>
 
 
 

@@ -37,8 +37,6 @@ class EditArticle extends Component
             'body' => $this->body,
         ]);
 
-
-        // $this->clearForm();
         $this->reset();
 
         session()->flash('message', 'Articolo aggiornato');

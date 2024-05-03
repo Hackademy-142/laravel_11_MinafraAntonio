@@ -22,7 +22,7 @@
                           <td>
                             <a class="btn btn-info" href="{{route('article.show', compact('article'))}}">Mostra</a>
                             <a class="btn btn-warning" href="{{route('article.edit', compact('article'))}}">Modifica</a>
-                            <button {{-- wire:click="destroy({{$article}})" --}} class="btn btn-danger">Elimina</button>
+                            <button wire:click="destroy({{$article}})" class="btn btn-danger">Elimina</button>
                           </td>
                         </tr>
                         @endforeach
